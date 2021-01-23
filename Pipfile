@@ -9,6 +9,7 @@ gunicorn = "*"
 mysqlclient = "*"
 pylint = "*"
 psycopg2 = "*"
+google-api-python-client = "*"
 
 [dev-packages]
 

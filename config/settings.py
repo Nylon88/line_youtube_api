@@ -25,7 +25,7 @@ SECRET_KEY = 'f05jo^__!0oi%wd3&geg-lou(ex0!p9b06s#43m=!u*2c7mvz4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.115.214.177']
+ALLOWED_HOSTS = ['3.115.214.177', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -80,14 +80,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.mysql',
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'webservice',
-        'USER': 'webuser',
-        #'USER': 'postgres',
-        'PASSWORD': 'KitayamaLeo8',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': 'webservice',
+        # 'USER': 'webuser',
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'KitayamaLeo8',
+        # 'HOST': 'localhost',
+        # 'PORT': '',
     }
 }
 
