@@ -80,14 +80,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        # 'NAME': 'webservice',
-        # 'USER': 'webuser',
-        # 'USER': 'postgres',
-        # 'PASSWORD': 'KitayamaLeo8',
-        # 'HOST': 'localhost',
-        # 'PORT': '',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'webservice',
+        'USER': 'webuser',
+        #'USER': 'postgres',
+        'PASSWORD': 'KitayamaLeo8',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
